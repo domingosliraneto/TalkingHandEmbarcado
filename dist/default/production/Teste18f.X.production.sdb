@@ -1,0 +1,527 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2550 ]
+[d frameptr 4065 ]
+"98 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\ADXL345.h
+[v _lerValores lerValores `(v  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strchr.c
+[v _strchr strchr `(*.39uc  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strstr.c
+[v _strstr strstr `(*.39uc  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"24 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\i2c\i2c_idle.c
+[v _IdleI2C IdleI2C `(v  1 e 0 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\i2c\i2c_read.c
+[v _ReadI2C ReadI2C `(uc  1 e 1 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\i2c\i2c_writ.c
+[v _WriteI2C WriteI2C `(c  1 e 1 0 ]
+"21 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Interrup.h
+[v _pwmExecute pwmExecute `(v  1 e 0 0 ]
+"45
+[v _Interrupt Interrupt `II(v  1 e 0 0 ]
+"108
+[v _initPWM initPWM `(v  1 e 0 0 ]
+"28 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"47 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\PicConfig.h
+[v _SetPWMDutyCycle SetPWMDutyCycle `(v  1 e 0 0 ]
+"32 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Serial.h
+[v _delaySeg delaySeg `(v  1 e 0 0 ]
+"40
+[v _initUART initUART `(v  1 e 0 0 ]
+"69
+[v _SerialPrint SerialPrint `(v  1 e 0 0 ]
+"78
+[v _SerialWifiWrite SerialWifiWrite `(v  1 e 0 0 ]
+"89
+[v _SerialWrite SerialWrite `(v  1 e 0 0 ]
+"110
+[v _SerialRead SerialRead `(uc  1 e 1 0 ]
+"123
+[v _SerialReadString SerialReadString `(v  1 e 0 0 ]
+"140
+[v _ContainString ContainString `(b  1 e 0 0 ]
+"150
+[v _waitToken waitToken `(b  1 e 0 0 ]
+"166
+[v _waitUntil waitUntil `(v  1 e 0 0 ]
+"174
+[v _SerialReadUntilToken SerialReadUntilToken `(v  1 e 0 0 ]
+"12 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\testeadc.h
+[v _initADC initADC `(v  1 e 0 0 ]
+"34
+[v _StartADC StartADC `(v  1 e 0 0 ]
+"24 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\wifiTCP.h
+[v _WifiTCPinit WifiTCPinit `(v  1 e 0 0 ]
+"45
+[v _WifiTCPSend WifiTCPSend `(v  1 e 0 0 ]
+"18 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\ADXL345.h
+[v _valoresEnviar valoresEnviar `[220]uc  1 e 220 0 ]
+"42
+[v _sendCmd sendCmd `C[19]uc  1 e 19 0 ]
+"2378 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic18f2550.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"2534
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"3411
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3608
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S425 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3640
+[s S434 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S443 . 1 `S425 1 . 1 0 `S434 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES443  1 e 1 @3987 ]
+[s S27 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3861
+[s S34 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[s S41 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TRISC3 1 0 :1:3 
+]
+[u S44 . 1 `S27 1 . 1 0 `S34 1 . 1 0 `S41 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES44  1 e 1 @3988 ]
+[s S355 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"4082
+[s S363 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[s S366 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+]
+[u S369 . 1 `S355 1 . 1 0 `S363 1 . 1 0 `S366 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES369  1 e 1 @3997 ]
+[s S190 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"4155
+[s S198 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S201 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S204 . 1 `S190 1 . 1 0 `S198 1 . 1 0 `S201 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES204  1 e 1 @3998 ]
+"5076
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5087
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5098
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"5109
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"5862
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"5931
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"5943
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"6013
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S229 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6044
+[s S232 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S239 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[s S242 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 VCFG01 1 0 :1:4 
+]
+[s S245 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S248 . 1 `S229 1 . 1 0 `S232 1 . 1 0 `S239 1 . 1 0 `S242 1 . 1 0 `S245 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES248  1 e 1 @4033 ]
+"6103
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S275 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6151
+[s S278 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S285 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S292 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S295 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S298 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S301 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S304 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S307 . 1 `S275 1 . 1 0 `S278 1 . 1 0 `S275 1 . 1 0 `S285 1 . 1 0 `S292 1 . 1 0 `S295 1 . 1 0 `S298 1 . 1 0 `S301 1 . 1 0 `S304 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES307  1 e 1 @4034 ]
+"6231
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"6237
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"6243
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S389 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6260
+[u S398 . 1 `S389 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES398  1 e 1 @4037 ]
+"6304
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"6373
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"6639
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"6651
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"6748
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"7511
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"7586
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"7999
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+[s S102 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"8051
+[s S111 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S120 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S129 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S138 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S142 . 1 `S102 1 . 1 0 `S111 1 . 1 0 `S120 1 . 1 0 `S129 1 . 1 0 `S138 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES142  1 e 1 @4082 ]
+"8349
+[v _ADDEN ADDEN `VEb  1 e 0 @32091 ]
+"8401
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"8515
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"8519
+[v _CSRC CSRC `VEb  1 e 0 @32103 ]
+"8841
+[v _FERR FERR `VEb  1 e 0 @32090 ]
+"9129
+[v _OERR OERR `VEb  1 e 0 @32089 ]
+"9285
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"9287
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"9329
+[v _RX9 RX9 `VEb  1 e 0 @32094 ]
+"9331
+[v _RX9D RX9D `VEb  1 e 0 @32088 ]
+"9355
+[v _SENDB SENDB `VEb  1 e 0 @32099 ]
+"9369
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"9371
+[v _SREN SREN `VEb  1 e 0 @32093 ]
+"9423
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"9579
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"9607
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"9611
+[v _TX9D TX9D `VEb  1 e 0 @32096 ]
+"9619
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"9623
+[v _TXIE TXIE `VEb  1 e 0 @31980 ]
+"9625
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"13 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Interrup.h
+[v _freq freq `i  1 e 2 0 ]
+"14
+[v __pwm _pwm `[5]i  1 e 10 0 ]
+"16
+[v _counter counter `uc  1 e 1 0 ]
+"26 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\main.c
+[v _FlagTXSend FlagTXSend `b  1 e 0 0 ]
+"21 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\PicConfig.h
+[v _A0 A0 `b  1 e 0 0 ]
+[v _A1 A1 `b  1 e 0 0 ]
+[v _A2 A2 `b  1 e 0 0 ]
+[v _A3 A3 `b  1 e 0 0 ]
+[v _A4 A4 `b  1 e 0 0 ]
+[v _A5 A5 `b  1 e 0 0 ]
+[v _A6 A6 `b  1 e 0 0 ]
+[v _A7 A7 `b  1 e 0 0 ]
+"22
+[v _B0 B0 `b  1 e 0 0 ]
+[v _B1 B1 `b  1 e 0 0 ]
+[v _B2 B2 `b  1 e 0 0 ]
+[v _B3 B3 `b  1 e 0 0 ]
+[v _B4 B4 `b  1 e 0 0 ]
+[v _B5 B5 `b  1 e 0 0 ]
+[v _B6 B6 `b  1 e 0 0 ]
+[v _B7 B7 `b  1 e 0 0 ]
+"27 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Serial.h
+[v _SerialReceivedData SerialReceivedData `uc  1 e 1 0 ]
+"28
+[v _SerialReceivedString SerialReceivedString `[50]uc  1 e 50 0 ]
+"30
+[v _SerialLen SerialLen `ui  1 e 2 0 ]
+"10 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\testeadc.h
+[v _ADC ADC `[10]ui  1 e 20 0 ]
+"19 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\wifiTCP.h
+[v _flagLink flagLink `b  1 e 0 0 ]
+"20
+[v _WifiTCPData WifiTCPData `[15]uc  1 e 15 0 ]
+"21
+[v _WifiTCPDataLen WifiTCPDataLen `ui  1 e 2 0 ]
+"28 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"48
+} 0
+"98 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\ADXL345.h
+[v _lerValores lerValores `(v  1 e 0 0 ]
+{
+"147
+[v lerValores@j j `ui  1 a 2 14 ]
+"100
+[v lerValores@i i `ui  1 a 2 12 ]
+"191
+} 0
+"34 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\testeadc.h
+[v _StartADC StartADC `(v  1 e 0 0 ]
+{
+"85
+} 0
+"78 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Serial.h
+[v _SerialWifiWrite SerialWifiWrite `(v  1 e 0 0 ]
+{
+"80
+[v SerialWifiWrite@i i `i  1 a 2 4 ]
+"78
+[v SerialWifiWrite@Valor Valor `*.39uc  1 p 2 0 ]
+[v SerialWifiWrite@Tamanho Tamanho `ui  1 p 2 2 ]
+"87
+} 0
+"40
+[v _initUART initUART `(v  1 e 0 0 ]
+{
+"67
+} 0
+"108 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Interrup.h
+[v _initPWM initPWM `(v  1 e 0 0 ]
+{
+"120
+} 0
+"12 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\testeadc.h
+[v _initADC initADC `(v  1 e 0 0 ]
+{
+"31
+} 0
+"24 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\wifiTCP.h
+[v _WifiTCPinit WifiTCPinit `(v  1 e 0 0 ]
+{
+"43
+} 0
+"32 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Serial.h
+[v _delaySeg delaySeg `(v  1 e 0 0 ]
+{
+"35
+[v delaySeg@i i `ui  1 a 2 3 ]
+"34
+[v delaySeg@j j `ui  1 a 2 1 ]
+"32
+[v delaySeg@waitTime waitTime `ui  1 p 2 18 ]
+"38
+} 0
+"89
+[v _SerialWrite SerialWrite `(v  1 e 0 0 ]
+{
+"91
+[v SerialWrite@indice indice `uc  1 a 1 9 ]
+"92
+[v SerialWrite@tamanho tamanho `uc  1 a 1 8 ]
+"89
+[v SerialWrite@frase frase `*.35Cuc  1 p 2 4 ]
+"108
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.35Cuc  1 a 2 2 ]
+"4
+[v strlen@s s `*.35Cuc  1 p 2 18 ]
+"13
+} 0
+"69 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Serial.h
+[v _SerialPrint SerialPrint `(v  1 e 0 0 ]
+{
+[v SerialPrint@byte byte `uc  1 a 1 wreg ]
+[v SerialPrint@byte byte `uc  1 a 1 wreg ]
+[v SerialPrint@byte byte `uc  1 a 1 18 ]
+"77
+} 0
+"45 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Interrup.h
+[v _Interrupt Interrupt `II(v  1 e 0 0 ]
+{
+"106
+} 0
+"150 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Serial.h
+[v _waitToken waitToken `(b  1 e 0 0 ]
+{
+[v waitToken@value value `uc  1 a 1 wreg ]
+[v waitToken@value value `uc  1 a 1 wreg ]
+"153
+[v waitToken@value value `uc  1 a 1 0 ]
+"164
+} 0
+"21 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Interrup.h
+[v _pwmExecute pwmExecute `(v  1 e 0 0 ]
+{
+"43
+} 0
+"174 C:\Users\Domingos Neto\Documents\5ª serie\TalkingHand\funcionando\Teste18f.X\Serial.h
+[v _SerialReadUntilToken SerialReadUntilToken `(v  1 e 0 0 ]
+{
+[v SerialReadUntilToken@charToCompare charToCompare `Cuc  1 a 1 wreg ]
+"176
+[v SerialReadUntilToken@i i `ui  1 a 2 2 ]
+"174
+[v SerialReadUntilToken@charToCompare charToCompare `Cuc  1 a 1 wreg ]
+"176
+[v SerialReadUntilToken@charToCompare charToCompare `Cuc  1 a 1 1 ]
+"189
+} 0
+"110
+[v _SerialRead SerialRead `(uc  1 e 1 0 ]
+{
+"121
+} 0
